@@ -1,0 +1,59 @@
+# ============================================================
+#  《禁区协议》Protocol-023  Unity 版本控制忽略规则
+#  目标：仓库只保留「可编译源码 + 资源」，下载后 Unity 可直接打开编译
+# ============================================================
+
+# ---------------- Unity 生成目录（编译缓存，不入库） ----------------
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]serSettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# ---------------- Unity 崩溃与调试产物 ----------------
+sysinfo.txt
+crashlytics-build.properties
+*.stackdump
+/[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/StreamingAssets/aa.meta
+/[Aa]ssets/StreamingAssets/aa/*
+
+# ---------------- IDE 工程文件（Unity 打开时自动重新生成） ----------------
+.vs/
+.idea/
+.vscode/
+.gradle/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ---------------- 操作系统杂项 ----------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------------- 构建产物 ----------------
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.ipa
+*.zip
+
+# ---------------- 本项目的 AI 协作记忆（不进公开仓库） ----------------
+/.workbuddy/
